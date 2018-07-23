@@ -17,6 +17,18 @@ class MainViewController:UIViewController{
     override func viewDidLoad() {
         self.nums = []
         self.navigationController?.setNavigationBarHidden(true, animated: true)
+        
+      
+        self.navigationItem.title = "로또착히"
+        
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+        
+        self.navigationItem.hidesBackButton = true
+        
+        self.navigationItem.rightBarButtonItem =   UIBarButtonItem(title: "나눔로또", style: .plain, target: self, action: #selector(self.rightBtnTap))
+        
+          self.navigationItem.leftBarButtonItem =   UIBarButtonItem(title: "QR코드", style: .plain, target: self, action: #selector(self.leftBtnTap))
+       
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -61,5 +73,17 @@ class MainViewController:UIViewController{
             }
         }
         return array
+    }
+    
+    @objc func rightBtnTap(){
+        if let url = URL(string: "http://www.nlotto.co.kr") {
+            UIApplication.shared.open(url, options: [:])
+        }
+    }
+    
+    @objc func leftBtnTap(){
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewcontroller = storyboard.instantiateViewController(withIdentifier: "QRcodeController")
+        self.navigationController?.pushViewController(viewcontroller, animated: true)
     }
 }

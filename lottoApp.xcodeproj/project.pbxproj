@@ -16,6 +16,7 @@
 		E7621BBE2080910C00C58374 /* lottoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7621BBD2080910C00C58374 /* lottoAppTests.swift */; };
 		E7621BC92080910C00C58374 /* lottoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7621BC82080910C00C58374 /* lottoAppUITests.swift */; };
 		E7621BD72080918000C58374 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7621BD62080918000C58374 /* MainViewController.swift */; };
+		E77D9D9921056ACE00423EFE /* QRcodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77D9D9821056ACE00423EFE /* QRcodeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E7621BC82080910C00C58374 /* lottoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lottoAppUITests.swift; sourceTree = "<group>"; };
 		E7621BCA2080910C00C58374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7621BD62080918000C58374 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E77D9D9821056ACE00423EFE /* QRcodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRcodeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				E7621BB42080910C00C58374 /* Info.plist */,
 				E7621BAC2080910C00C58374 /* lottoApp.xcdatamodeld */,
 				E7621BD62080918000C58374 /* MainViewController.swift */,
+				E77D9D9821056ACE00423EFE /* QRcodeController.swift */,
 			);
 			path = lottoApp;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77D9D9921056ACE00423EFE /* QRcodeController.swift in Sources */,
 				E7621BA82080910C00C58374 /* ViewController.swift in Sources */,
 				E7621BAE2080910C00C58374 /* lottoApp.xcdatamodeld in Sources */,
 				E7621BA62080910C00C58374 /* AppDelegate.swift in Sources */,
@@ -437,7 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8B57CJBVG;
 				INFOPLIST_FILE = lottoApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = project.vkeldh.lottoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,7 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8B57CJBVG;
 				INFOPLIST_FILE = lottoApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = project.vkeldh.lottoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

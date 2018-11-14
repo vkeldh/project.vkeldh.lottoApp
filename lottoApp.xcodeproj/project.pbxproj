@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DDFDA3229C975707A9AF20A /* Pods_lottoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02405024883DBA528756E076 /* Pods_lottoAppUITests.framework */; };
+		C1F9188A37315B5B57305316 /* Pods_lottoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883DD74E06CBFED6AE916D4B /* Pods_lottoAppTests.framework */; };
+		CAE61D7FAA27E745F3DFDAA9 /* Pods_lottoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05EFACB8486CAFF565A37D0 /* Pods_lottoApp.framework */; };
+		E70CC613219BDA0C00DB866D /* DataSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70CC612219BDA0C00DB866D /* DataSwift.swift */; };
+		E70CC615219BDC2200DB866D /* ResultNumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70CC614219BDC2200DB866D /* ResultNumController.swift */; };
+		E70CC617219BFC0A00DB866D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70CC616219BFC0A00DB866D /* WebViewController.swift */; };
+		E70D2EF9212D2CF200045F7D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E70D2EF8212D2CF200045F7D /* GoogleService-Info.plist */; };
+		E73080942195568500579080 /* ExtensionSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73080932195568500579080 /* ExtensionSwift.swift */; };
 		E7621BA62080910C00C58374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7621BA52080910C00C58374 /* AppDelegate.swift */; };
 		E7621BA82080910C00C58374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7621BA72080910C00C58374 /* ViewController.swift */; };
 		E7621BAB2080910C00C58374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7621BA92080910C00C58374 /* Main.storyboard */; };
@@ -37,6 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02405024883DBA528756E076 /* Pods_lottoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lottoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5F8A4BA86BEDD68A579E99 /* Pods-lottoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottoAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lottoAppTests/Pods-lottoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58FE0A136951E7EA65AA9F46 /* Pods-lottoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottoAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lottoAppUITests/Pods-lottoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		883DD74E06CBFED6AE916D4B /* Pods_lottoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lottoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82FC80B82F6DBF2BE390C36 /* Pods-lottoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lottoApp/Pods-lottoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D05EFACB8486CAFF565A37D0 /* Pods_lottoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lottoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57920F191F813C546B7FAB6 /* Pods-lottoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-lottoApp/Pods-lottoApp.release.xcconfig"; sourceTree = "<group>"; };
+		E70CC612219BDA0C00DB866D /* DataSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSwift.swift; sourceTree = "<group>"; };
+		E70CC614219BDC2200DB866D /* ResultNumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultNumController.swift; sourceTree = "<group>"; };
+		E70CC616219BFC0A00DB866D /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E70D2EF7212D2AFA00045F7D /* lottoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lottoApp.entitlements; sourceTree = "<group>"; };
+		E70D2EF8212D2CF200045F7D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E73080932195568500579080 /* ExtensionSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSwift.swift; sourceTree = "<group>"; };
 		E7621BA22080910C00C58374 /* lottoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lottoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7621BA52080910C00C58374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7621BA72080910C00C58374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +74,8 @@
 		E7621BCA2080910C00C58374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7621BD62080918000C58374 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E77D9D9821056ACE00423EFE /* QRcodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRcodeController.swift; sourceTree = "<group>"; };
+		F6DC3C57CE79C451798C3938 /* Pods-lottoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottoAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lottoAppTests/Pods-lottoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDD455F61ABD149B9F511336 /* Pods-lottoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottoAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lottoAppUITests/Pods-lottoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAE61D7FAA27E745F3DFDAA9 /* Pods_lottoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F9188A37315B5B57305316 /* Pods_lottoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +99,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDFDA3229C975707A9AF20A /* Pods_lottoAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		553F0497C50DEE4253A3E8CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D05EFACB8486CAFF565A37D0 /* Pods_lottoApp.framework */,
+				883DD74E06CBFED6AE916D4B /* Pods_lottoAppTests.framework */,
+				02405024883DBA528756E076 /* Pods_lottoAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0B52C44D976973856E3EA93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C82FC80B82F6DBF2BE390C36 /* Pods-lottoApp.debug.xcconfig */,
+				E57920F191F813C546B7FAB6 /* Pods-lottoApp.release.xcconfig */,
+				1A5F8A4BA86BEDD68A579E99 /* Pods-lottoAppTests.debug.xcconfig */,
+				F6DC3C57CE79C451798C3938 /* Pods-lottoAppTests.release.xcconfig */,
+				58FE0A136951E7EA65AA9F46 /* Pods-lottoAppUITests.debug.xcconfig */,
+				FDD455F61ABD149B9F511336 /* Pods-lottoAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E7621B992080910C00C58374 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +136,8 @@
 				E7621BBC2080910C00C58374 /* lottoAppTests */,
 				E7621BC72080910C00C58374 /* lottoAppUITests */,
 				E7621BA32080910C00C58374 /* Products */,
+				D0B52C44D976973856E3EA93 /* Pods */,
+				553F0497C50DEE4253A3E8CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +154,7 @@
 		E7621BA42080910C00C58374 /* lottoApp */ = {
 			isa = PBXGroup;
 			children = (
+				E70D2EF7212D2AFA00045F7D /* lottoApp.entitlements */,
 				E7621BA52080910C00C58374 /* AppDelegate.swift */,
 				E7621BA72080910C00C58374 /* ViewController.swift */,
 				E7621BA92080910C00C58374 /* Main.storyboard */,
@@ -112,6 +164,11 @@
 				E7621BAC2080910C00C58374 /* lottoApp.xcdatamodeld */,
 				E7621BD62080918000C58374 /* MainViewController.swift */,
 				E77D9D9821056ACE00423EFE /* QRcodeController.swift */,
+				E70D2EF8212D2CF200045F7D /* GoogleService-Info.plist */,
+				E73080932195568500579080 /* ExtensionSwift.swift */,
+				E70CC612219BDA0C00DB866D /* DataSwift.swift */,
+				E70CC614219BDC2200DB866D /* ResultNumController.swift */,
+				E70CC616219BFC0A00DB866D /* WebViewController.swift */,
 			);
 			path = lottoApp;
 			sourceTree = "<group>";
@@ -141,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7621BCD2080910C00C58374 /* Build configuration list for PBXNativeTarget "lottoApp" */;
 			buildPhases = (
+				3C58E230DA9F149498E7B033 /* [CP] Check Pods Manifest.lock */,
 				E7621B9E2080910C00C58374 /* Sources */,
 				E7621B9F2080910C00C58374 /* Frameworks */,
 				E7621BA02080910C00C58374 /* Resources */,
+				373397F1660F4155B7012E1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7621BD02080910C00C58374 /* Build configuration list for PBXNativeTarget "lottoAppTests" */;
 			buildPhases = (
+				BC5F9768E757917D74F534BE /* [CP] Check Pods Manifest.lock */,
 				E7621BB52080910C00C58374 /* Sources */,
 				E7621BB62080910C00C58374 /* Frameworks */,
 				E7621BB72080910C00C58374 /* Resources */,
@@ -176,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7621BD32080910C00C58374 /* Build configuration list for PBXNativeTarget "lottoAppUITests" */;
 			buildPhases = (
+				8C7C1BE4E1DB5072DAC0FBD0 /* [CP] Check Pods Manifest.lock */,
 				E7621BC02080910C00C58374 /* Sources */,
 				E7621BC12080910C00C58374 /* Frameworks */,
 				E7621BC22080910C00C58374 /* Resources */,
@@ -203,6 +264,11 @@
 					E7621BA12080910C00C58374 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					E7621BB82080910C00C58374 = {
 						CreatedOnToolsVersion = 9.2;
@@ -242,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7621BB32080910C00C58374 /* LaunchScreen.storyboard in Resources */,
+				E70D2EF9212D2CF200045F7D /* GoogleService-Info.plist in Resources */,
 				E7621BB02080910C00C58374 /* Assets.xcassets in Resources */,
 				E7621BAB2080910C00C58374 /* Main.storyboard in Resources */,
 			);
@@ -263,16 +330,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		373397F1660F4155B7012E1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lottoApp/Pods-lottoApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lottoApp/Pods-lottoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C58E230DA9F149498E7B033 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lottoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C7C1BE4E1DB5072DAC0FBD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lottoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5F9768E757917D74F534BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lottoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7621B9E2080910C00C58374 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E77D9D9921056ACE00423EFE /* QRcodeController.swift in Sources */,
+				E70CC617219BFC0A00DB866D /* WebViewController.swift in Sources */,
+				E70CC613219BDA0C00DB866D /* DataSwift.swift in Sources */,
 				E7621BA82080910C00C58374 /* ViewController.swift in Sources */,
 				E7621BAE2080910C00C58374 /* lottoApp.xcdatamodeld in Sources */,
 				E7621BA62080910C00C58374 /* AppDelegate.swift in Sources */,
 				E7621BD72080918000C58374 /* MainViewController.swift in Sources */,
+				E73080942195568500579080 /* ExtensionSwift.swift in Sources */,
+				E70CC615219BDC2200DB866D /* ResultNumController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,8 +594,10 @@
 		};
 		E7621BCE2080910C00C58374 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82FC80B82F6DBF2BE390C36 /* Pods-lottoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = lottoApp/lottoApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8B57CJBVG;
 				INFOPLIST_FILE = lottoApp/Info.plist;
@@ -452,8 +612,10 @@
 		};
 		E7621BCF2080910C00C58374 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57920F191F813C546B7FAB6 /* Pods-lottoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = lottoApp/lottoApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8B57CJBVG;
 				INFOPLIST_FILE = lottoApp/Info.plist;
@@ -468,11 +630,12 @@
 		};
 		E7621BD12080910C00C58374 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5F8A4BA86BEDD68A579E99 /* Pods-lottoAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9UF5VL2UFR;
+				DEVELOPMENT_TEAM = V8B57CJBVG;
 				INFOPLIST_FILE = lottoAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vkeldh.lottoApp.lottoAppTests;
@@ -485,11 +648,12 @@
 		};
 		E7621BD22080910C00C58374 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DC3C57CE79C451798C3938 /* Pods-lottoAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9UF5VL2UFR;
+				DEVELOPMENT_TEAM = V8B57CJBVG;
 				INFOPLIST_FILE = lottoAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vkeldh.lottoApp.lottoAppTests;
@@ -502,10 +666,11 @@
 		};
 		E7621BD42080910C00C58374 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FE0A136951E7EA65AA9F46 /* Pods-lottoAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9UF5VL2UFR;
+				DEVELOPMENT_TEAM = V8B57CJBVG;
 				INFOPLIST_FILE = lottoAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vkeldh.lottoApp.lottoAppUITests;
@@ -518,10 +683,11 @@
 		};
 		E7621BD52080910C00C58374 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD455F61ABD149B9F511336 /* Pods-lottoAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9UF5VL2UFR;
+				DEVELOPMENT_TEAM = V8B57CJBVG;
 				INFOPLIST_FILE = lottoAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vkeldh.lottoApp.lottoAppUITests;

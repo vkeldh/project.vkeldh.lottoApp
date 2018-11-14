@@ -90,6 +90,10 @@ class QRcodeController: UIViewController  {
         }
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        DataSwift.shared.QrCode = ""
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -122,7 +126,20 @@ class QRcodeController: UIViewController  {
 //        */
         if let url = URL(string: decodedURL) {
             if UIApplication.shared.canOpenURL(url) {
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                let urlString:String = String(decodedURL[..<decodedURL.index(decodedURL.startIndex, offsetBy: 22)])
+               
+                if "http://qr.645lotto.net" == urlString && DataSwift.shared.QrCode != decodedURL{
+                     print("urlString\(urlString)")
+                     DataSwift.shared.QrCode = decodedURL
+                    
+                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                    let viewcontroller = storyboard.instantiateViewController(withIdentifier: "WebViewController")
+                    self.navigationController?.pushViewController(viewcontroller, animated: true)
+                    
+                   
+                   // UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                }
+                
             }
         }
     }
